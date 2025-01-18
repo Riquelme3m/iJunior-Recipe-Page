@@ -1,0 +1,225 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+/* Variables */
+
+:root{
+    --White:hsl(0, 0%, 100%);
+    --Stone-100: hsl(30, 54%, 90%);
+    --Stone-150: hsl(30, 18%, 87%);
+    --Stone-600: hsl(30, 10%, 34%);
+    --Stone-900: hsl(24, 5%, 18%);
+    --Brown-800: hsl(14, 45%, 36%);
+    --Rose-800: hsl(332, 51%, 32%);
+    --Rose-50: hsl(330, 100%, 98%);
+}
+
+/* Fonts */
+
+body{
+    font-family: "Outfit","Young Serif","Arial";
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    min-height: 100vh;
+    gap:0.5rem;
+    color:var(--Stone-600);
+    
+}
+
+header img{
+    max-width:100%;
+    
+    
+}
+.introduction{
+    width:90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap:1rem;
+    margin:auto;
+    color:var(--Stone-600);
+    padding:10px;
+}
+.introduction h1{
+    text-align: left;
+    font-family: "Young Serif";
+    font-size:2rem;
+    font-weight: 400;
+    color: var(--Stone-900);
+    line-height:35px;
+}
+
+.preparation{
+    margin-top:18px;
+    display: flex;
+    flex-direction: column;
+    gap:0.9rem;
+    background-color: var(--Rose-50);
+    width:80%;
+    padding:1.3rem;
+    border-radius: 1rem;
+    padding:10px;
+    
+}
+.preparation h3{
+    color: var(--Rose-800);
+    font-weight: 600;
+}
+
+.preparation ul{
+    font-size: 0.9rem;
+    display: flex;
+    flex-direction: column;
+    gap:0.7rem;
+    text-decoration-color: var(--Rose-800);
+    padding-left:1rem;
+
+}
+.preparation li::marker{
+    color:var(--Rose-800);
+}
+.preparation li{
+    padding-left: 1rem;
+}
+
+.preparation ul span{
+    font-weight: 600;
+    color: var(--Stone-900);
+}
+.ingredients{
+    margin-top:20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap:1.5rem;
+    width:90%;
+    padding:10px;
+    
+}
+.ingredients h2{
+    text-align: start;
+   
+    font-family: "Young Serif";
+    color:var(--Brown-800);
+    font-weight: 500;
+}
+.ingredients li{
+    padding-left: 1rem;
+}
+.ingredients ul{
+    font-size: 0.9rem;
+    display: flex;
+    flex-direction: column;
+    gap:0.7rem;
+    text-decoration-color: var(--Rose-800);
+    padding-left:1rem;
+
+}
+.ingredients li::marker{
+    color:var(--Brown-800)
+}
+
+
+hr {
+    border: none;
+    border-top: 2px solid lightgray; /* Color of the line */
+    width: 80%; /* Adjust the width of the line */
+    margin: 2rem auto; /* Add space above and below the line */
+}
+
+
+.instructions{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap:1.5rem;
+    width:90%;
+    line-height: 1.5rem;
+    padding:10px;
+    
+}
+.instructions h2{
+    text-align: start;
+   
+    font-family: "Young Serif";
+    color:var(--Brown-800);
+    font-weight: 500;
+}
+.instructions li{
+    padding-left: 1rem;
+}
+.instructions ol{
+    font-size: 0.9rem;
+    display: flex;
+    flex-direction: column;
+    gap:0.7rem;
+    text-decoration-color: var(--Rose-800);
+    padding-left:1rem;
+
+}
+.instructions li::marker{
+    color:var(--Brown-800);
+    font-weight:700;
+}
+
+
+
+
+
+
+.nutrition{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap:1.5rem;
+    width:90%;
+    line-height: 1.5rem;
+    
+}
+.nutrition h2{
+    text-align: start;
+    font-family: "Young Serif";
+    color:var(--Brown-800);
+    font-weight: 500;
+}
+
+/* Reset borders for the entire table */
+table, th, td {
+    border: none; /* Remove any borders from table, th, and td */
+}
+
+.nutrition table tr {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    padding: 1rem;
+    border-bottom: 1px solid lightgray;
+}
+.nutrition table tr:nth-child(4){
+    border-bottom:none;
+}
+
+
+
+.nutrition table td {
+    padding: 10px;
+    text-align: left;
+    padding-left: 20px;
+}
+
+
+
+
+
+/* Tablets , desktops ...*/
+
+@media screen and (min-width:768px){
+    /*tweak the entire file as well as the image*/
+}
