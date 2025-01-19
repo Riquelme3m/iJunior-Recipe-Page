@@ -14,7 +14,7 @@
 
 ### Links
 
-- Solution URL: [https://riquelme3m.github.io/iJunior-Dashboard-Grid-Layout/](https://riquelme3m.github.io/iJunior-Dashboard-Grid-Layout/)
+- Solution URL: [https://riquelme3m.github.io/iJunior-Recipe-Page/](https://riquelme3m.github.io/iJunior-Recipe-Page/)
 
 ### Built With
 
