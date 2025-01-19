@@ -222,4 +222,36 @@ table, th, td {
 
 @media screen and (min-width:768px){
     /*tweak the entire file as well as the image*/
+
+    body{
+        padding:2.5rem;
+        align-items: flex-start;
+        gap:2rem;
+        
+    }
+    header{
+        
+        width:100%;
+    }
+    header img{
+        min-width: 100%;
+        height:50vh;
+        border-radius:1rem;
+        object-fit: cover;
+        object-position: center;
+        
+    }
+    
+    .introduction h1{
+        font-size: 3rem;
+    }
+    .introduction{
+        align-items: flex-start;
+        margin:0;
+        gap:3rem;
+    }
+    .preparation{
+        padding:3rem;
+        width:100%;
+    }
 }
